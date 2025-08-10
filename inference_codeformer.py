@@ -36,7 +36,7 @@ def set_realesrgan():
     )
     upsampler = RealESRGANer(
         scale=2,
-        model_path="https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/RealESRGAN_x2plus.pth",
+        model_path="https://release-assets.githubusercontent.com/github-production-release-asset/387326890/08f0e941-ebb7-48f0-9d6a-73e87b710e7e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-08-10T15%3A19%3A49Z&rscd=attachment%3B+filename%3DRealESRGAN_x4plus.pth&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-08-10T14%3A18%3A56Z&ske=2025-08-10T15%3A19%3A49Z&sks=b&skv=2018-11-09&sig=4tJSS%2B6JW1LL%2BM%2BDIK%2FwlqogI6JUYAeq%2FqNnIsEre7I%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1NDgzNTk5MywibmJmIjoxNzU0ODM1NjkzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WHY_3NDhrzV7viXfsGUvgmdh8bpp4VVfzOj0fKroaBg&response-content-disposition=attachment%3B%20filename%3DRealESRGAN_x4plus.pth&response-content-type=application%2Foctet-stream",
         model=model,
         tile=args.bg_tile,
         tile_pad=40,
